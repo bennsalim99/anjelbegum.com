@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjel Güzellik Merkezi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #ff99cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ff6699;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .service img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .feedback {
+            margin-top: 30px;
+        }
+        .emoji-feedback {
+            font-size: 24px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        footer {
+            background-color: #ff99cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anjel Güzellik Merkezi</h1>
+        <p>Güzelliğinize değer katıyoruz!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#hakkimizda">Hakkımızda</a></li>
+            <li><a href="#hizmetler">Hizmetler</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <section id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <p>Profesyonel ekibimizle güzellik ve bakım hizmetlerinde yanınızdayız. Anjel Güzellik Merkezi ile kendinizi özel hissedin.</p>
+    </section>
+
+    <section id="hizmetler">
+        <h2>Hizmetlerimiz</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://via.placeholder.com/250" alt="Cilt Bakımı">
+                <h3>Cilt Bakımı</h3>
+                <p>Canlı ve sağlıklı bir cilt için profesyonel çözümler.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/250" alt="Lazer Epilasyon">
+                <h3>Lazer Epilasyon</h3>
+                <p>Pürüzsüz bir cilt için kalıcı çözümler.</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/250" alt="Kaş ve Kirpik Lifting">
+                <h3>Kaş ve Kirpik Lifting</h3>
+                <p>Bakışlarınıza anlam katın.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>Adres: İstanbul, Türkiye</p>
+        <p>Telefon: +90 555 555 55 55</p>
+        <p>E-posta: info@anjelguzellik.com</p>
+    </section>
+
+    <section class="feedback">
+        <h2>Bugün nasıl hissediyorsunuz?</h2>
+        <div>
+            <span class="emoji-feedback">😊</span>
+            <span class="emoji-feedback">😐</span>
+            <span class="emoji-feedback">☹️</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Anjel Güzellik Merkezi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
